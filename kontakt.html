@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Můj web | Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Můj osobní web</h1>
+
+        <nav>
+            <a href="index.html">Domů</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="rozvrh.html">Rozvrh</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for = "Jmeno">Jméno: </label>
+            <input type="text" id="Jmeno" name="Jmeno" required>
+            <label for = "Mail">E-mail:</label>
+            <input type="email" id="Mail" name="Mail" required>
+            <label for = "Telefon">Telefon:</label>
+            <input type="tel" id="Telefon" name="Telefon" required>
+            <label for = vek>Věk:</label>
+            <input type="number" id="vek" name="vek" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="date" id="date" name="date" required>
+            <input type="checkbox" id="rememberme" name="rememberme">
+            <input type="range">
+            <input type="file">
+            <input type="color">
+            <input type="radio">
+            <input type="submit">
+
+            <select>
+                <option value="1">Možnost 1</option>
+                <option value="2">Možnost 2</option>
+                <option value="3">Možnost 3</option>
+            </select>
+
+            <fieldset>
+                <input type="radio" name="hodnoceni">
+            </fieldset>
+
+            <textarea rows ="6" minlength="6" required></textarea>
+        </form>
+    </main>
+
+</body>
+</html>
